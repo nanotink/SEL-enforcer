@@ -1,4 +1,4 @@
-# SELinux enforcerer+
+# SELinux enforcer+
 ## Requirements for effective hiding
 - Latest Zygisk Next(1.2.8)
 https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.2.8/Zygisk-Next-1.2.8-512-4b5d6ad-release.zip
