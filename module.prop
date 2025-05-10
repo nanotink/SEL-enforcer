@@ -2,5 +2,5 @@ id=enforceloop
 name=SELinux enforcer+
 version=999
 versionCode=999
-author=Nanomod
+author=nanotink
 description=🔒Locks SELinux to 'enforcing' state ➕Use action.sh to fix more detection
