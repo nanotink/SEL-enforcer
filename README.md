@@ -8,3 +8,4 @@ https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-383/Shami
 # The extra
 The action.sh can delete bad props
 e.g.:**Native Test** -> Evil Service(2)
+and fixes **non-SDK** interfaces
