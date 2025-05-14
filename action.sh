@@ -15,6 +15,6 @@ resetprop --delete ro.kernel.qemu
 # resetprop --delete persist.sys.vold_app_data_isolation_enabled
 sleep 1
 ##fix resetprop --> this means you don't have to reboot to apply changes
-su -c rm -rf /dev/_properties_/u:object_r:exported_default_prop:s0
+su -c rm -rf /dev/__properties__/u:object_r:exported_default_prop:s0
 ##notification
 echo "🌟No need to reboot!😎"
