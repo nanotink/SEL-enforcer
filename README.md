@@ -1,9 +1,9 @@
-# SELinux enforcer➕️
-## Requirements for effective hiding🫥
+# SELinux enforcer++
+## Requirements for effective hiding😶‍🌫️
 - Latest Rezygisk(v1.0.0-rc.2) *Better*
 https://github.com/PerformanC/ReZygisk/releases/download/v1.0.0-rc.2/ReZygisk-v1.0.0-rc.2-release.zip
-- Latest Shamiko(1.2.1 or 1.2.3) or SUSFS(KSU)[recommended]
-https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-383/Shamiko-v1.2.1-383-release.zip
+- Latest NoHello or SUSFS(KSU)[recommended]
+https://github.com/MhmRdd/NoHello/releases/download/0.0.5/Nohello-v0.0.5-48-86aa587-release.zip
 *This version of Shamiko[1.2.1] is enough*
 # The extra➕️
 The action.sh can delete bad props
