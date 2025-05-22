@@ -33,6 +33,8 @@ resetprop vendor.boot.bootmode unknown
 su -c rm -rf /sdcard/TWRP
 ##SELinux flag fix
 resetprop ro.build.selinux 0 #Secure
+##Critical bug fix --> delay context deleting
+sleep 60 #in seconds
 ##Fix resetprop 'Property modified(10)' (Native test)
 su -c rm -rf /dev/__properties__/u:object_r:exported_default_prop:s0
 su -c rm -rf /dev/__properties__/u:object_r:default_prop:s0

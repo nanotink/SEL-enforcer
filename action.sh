@@ -4,6 +4,11 @@
 # resetprop --delete persist.sys.vold_app_data_isolation_enabled
 ##Put the props BEFORE the 'sleep 1'
 sleep 1
+##Fix non-sdk
+su -c settings delete global hidden_api_policy
+su -c settings delete global hidden_api_policy_p_apps
+su -c settings delete global hidden_api_policy_pre_p_apps
+clear
 ##Fix resetprop 'Property modified(10)' (Native test)
 su -c rm -rf /dev/__properties__/u:object_r:exported_default_prop:s0
 su -c rm -rf /dev/__properties__/u:object_r:default_prop:s0
