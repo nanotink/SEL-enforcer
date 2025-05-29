@@ -2,7 +2,9 @@
 ##Example:
 # resetprop ro.build.fingerprint google/akita_beta/akita:16/BP22.250325.012/13467521:user/release-keys
 # resetprop --delete persist.sys.vold_app_data_isolation_enabled
-##Put the props BEFORE the 'sleep 1'
+########################################
+#######Put the props BEFORE the 'sleep 1'#######
+########################################
 sleep 1
 ##Fix non-sdk
 su -c settings delete global hidden_api_policy
