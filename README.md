@@ -1,9 +1,7 @@
 # SELinux enforcer++
 ## Requirements for effective hiding😶‍🌫️
-- Latest Rezygisk(v1.0.0-rc.2) *Better*
-https://github.com/PerformanC/ReZygisk/releases/download/v1.0.0-rc.2/ReZygisk-v1.0.0-rc.2-release.zip
-- Latest NoHello or SUSFS(KSU)
-https://github.com/MhmRdd/NoHello/releases/download/0.0.5/Nohello-v0.0.5-48-86aa587-release.zip
+- Latest [Rezygisk](https://github.com/PerformanC/ReZygisk/releases) or [Neozygisk](https://github.com/JingMatrix/NeoZygisk/tags)
+- Latest [NoHello](https://github.com/MhmRdd/NoHello/releases) or [SUSFS](https://github.com/sidex15/susfs4ksu-module/releases/tag/v1.5.2%2B_R18) (Module)
 # The extra➕️
 The action.sh can modifiy props without being detected!
 You can define custom props using `resetprop` in action.sh
