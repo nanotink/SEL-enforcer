@@ -37,7 +37,7 @@ resetprop ro.build.selinux 0 #Secure
 ##Fix resetprop 'Property modified(10)' (Native test)
 su -c rm -rf /dev/__properties__/u:object_r:exported_default_prop:s0
 su -c rm -rf /dev/__properties__/u:object_r:default_prop:s0
-su -c rm -rf /dev/__properties__/u:object_r:dalvik_default_prop:s0
+su -c rm -rf /dev/__properties__/u:object_r:dalvik_config_prop:s0
 delay=5 #in seconds
 while :
 do
