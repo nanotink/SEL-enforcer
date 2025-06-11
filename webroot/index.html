@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" id="bg">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="assets/script.js"></script>
+	<script src="assets/misc.js"></script>
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="shortcut icon" href="assets/edit.png" type="image/x-icon">
+	<title>Propcfg</title>
+<body onload="ostype(); exec('getprop')">
+<header>
+	<button id="light" onclick="mode()"><img id="theme" src="assets/light.png" alt="Theme" title="Theme"></button>
+	<h1 id="title">Prop Setter</h1>
+</header>
+<form action="" id="properties">
+<blockquote><label>[ro.build.selinux.test.length.overlap]: [0]</label><button class="delete"><img src="assets/delete.png" alt="Delete" title="Delete" onclick="remove()"></button><button class="edit"><img src="assets/edit.png" alt="Edit" title="Edit" onclick="data()"></button></blockquote>
+<blockquote><label>[ro.kernel.qemu]: [0]</label><button class="delete"><img src="assets/delete.png" alt="Delete" title="Delete" onclick="remove()"></button><button class="edit"><img src="assets/edit.png" alt="Edit" title="Edit" onclick="data()"></button></blockquote>
+</form>
+<footer></footer>
+</body>
+</html>
