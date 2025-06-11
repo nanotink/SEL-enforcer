@@ -7,3 +7,5 @@ Makes SELINUX loop in `enforcing` state for Android
 The action.sh can modifiy props without being detected!
 You can define custom props using `resetprop` in action.sh
 Reboot is not required!😎
+## Web UI
+It can be found as pre-release that is under development, so at the moment it doesn't works -> Contributions, forks are welcome!🙂
